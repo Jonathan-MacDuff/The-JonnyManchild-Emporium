@@ -1,3 +1,17 @@
-body {
-    background: blue;
+p#firstCatcher {
+    width: 400px;
+    height: 200px;
+}
+
+a#cookie {
+    color: blue;
+}
+
+p#cookiePage {
+    font-size: larger;
+}
+
+img#bigCookie {
+    height: 1000px;
+    width: 1000px;
 }
