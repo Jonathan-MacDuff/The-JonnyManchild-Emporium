@@ -1,17 +1,30 @@
+nav#navbar {
+    position: fixed;
+    top: 0;
+}
+
 p#firstCatcher {
     width: 400px;
     height: 200px;
 }
 
-a#cookie {
-    color: blue;
-}
-
-p#cookiePage {
-    font-size: larger;
-}
-
 img#bigCookie {
-    height: 1000px;
-    width: 1000px;
+    height: 500px;
+    width: 500px;
+}
+
+
+
+form#contactForm {
+    width: 200px;
+    margin: auto;
+}
+
+input#service {
+
+}
+
+div#contactInfo {
+    width: 200px;
+    margin: auto;
 }
