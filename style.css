@@ -22,24 +22,78 @@ nav#navbar > a {
     border-top-style: outset;
     border-bottom-style: outset;
     border-color: black;
-    background-color: rgb(57, 10, 56);
+    background-color: rgb(224, 43, 221);
     flex: 1;
     text-align: center;
 }
 
-div#contactImage {
+.homeLinks > a {
+    color: rgb(224, 43, 221);
+}
+
+.homePage {
+    overflow: hidden;
+}
+
+
+
+.homeLinks {
     width: 50%;
     height: auto;
+    box-sizing: border-box;
+    float: left;
     overflow: hidden;
-  
 }
 
 a#contactImage {
     width: 100%;
     height: 500px;
     display: inline-block;
-    background-image: url(./Images/old-phones.jpg);
+    background-image: url(./Images/blue-mirrors.jpg);
     background-size: cover;
+}
+
+a#aboutImage {
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    background-image: url(./Images/red-lightspeed.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+a#workImage {
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    background-image: url(./Images/abstract-code.jpg);
+    background-size: cover;
+}
+
+a#musingsImage {
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    background-image: url(./Images/blue-water.jpg);
+    background-size: cover;
+    transform: rotate(180deg);
+    margin-left: 20px;
+}
+
+.rotate0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rotate180 {
+    transform: rotate(-180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 p#firstCatcher {
