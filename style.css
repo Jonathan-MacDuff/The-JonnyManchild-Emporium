@@ -2,12 +2,12 @@ body {
     background-image: url(./Images/unsplash-purple-tech.jpg);
     background-size: cover;
     color: goldenrod;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 nav#navbar {
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 0;
     right: 0;
     text-align: center;
