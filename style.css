@@ -35,14 +35,13 @@ nav#navbar > a {
     overflow: hidden;
 }
 
-
-
-.homeLinks {
+div.homeLinks {
     width: 50%;
     height: auto;
     box-sizing: border-box;
     float: left;
     overflow: hidden;
+    position: relative;
 }
 
 a#contactImage {
@@ -51,6 +50,7 @@ a#contactImage {
     display: inline-block;
     background-image: url(./Images/blue-mirrors.jpg);
     background-size: cover;
+    border-radius: 15px;
 }
 
 a#aboutImage {
@@ -61,6 +61,7 @@ a#aboutImage {
     background-size: cover;
     margin-bottom: 20px;
     margin-left: 20px;
+    border-radius: 15px;
 }
 
 a#workImage {
@@ -69,6 +70,7 @@ a#workImage {
     display: inline-block;
     background-image: url(./Images/abstract-code.jpg);
     background-size: cover;
+    border-radius: 15px;
 }
 
 a#musingsImage {
@@ -79,6 +81,7 @@ a#musingsImage {
     background-size: cover;
     transform: rotate(180deg);
     margin-left: 20px;
+    border-radius: 15px;
 }
 
 .rotate0 {
